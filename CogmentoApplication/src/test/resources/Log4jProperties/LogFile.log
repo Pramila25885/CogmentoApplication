@@ -1,0 +1,4 @@
+2020-09-01 14:17:25,576 - com.baseClass.Library -INFO - Starting with Browser Set Up
+2020-09-01 14:17:30,117 - com.baseClass.Library -INFO - Identified the browser as chrome. Launching the browser
+2020-09-01 14:17:34,177 - com.baseClass.Library -INFO - Launched the OrangeHRM Application
+2020-09-01 14:17:34,178 - com.baseClass.Library -INFO - Browser Launched and navigated to URL

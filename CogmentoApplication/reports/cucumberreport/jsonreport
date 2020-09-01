@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-01T18:17:25.286Z",
+        "line": 3,
+        "name": "To check the login functionality of Cogmento",
+        "description": "",
+        "id": "test-the-cogmento-application;to-check-the-login-functionality-of-cogmento",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8800392400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To Launch the browser and Navigate to the URL",
+            "match": {
+              "location": "com.loginSteps_StepDefinition.LoginSteps.to_Launch_the_browser_and_Navigate_to_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 357044400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter Email and Password",
+            "match": {
+              "location": "com.loginSteps_StepDefinition.LoginSteps.enter_Email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54852500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click Login Button",
+            "match": {
+              "location": "com.loginSteps_StepDefinition.LoginSteps.click_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353957500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Get the page Title and ScreenShot",
+            "match": {
+              "location": "com.loginSteps_StepDefinition.LoginSteps.get_the_page_Title_and_ScreenShot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the Cogmento Application",
+    "description": "",
+    "id": "test-the-cogmento-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
