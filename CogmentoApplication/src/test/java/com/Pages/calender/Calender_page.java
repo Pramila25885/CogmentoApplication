@@ -126,12 +126,17 @@ public class Calender_page extends Library {
 	@FindBy(xpath="//*[text()='Save']")
 	WebElement save;
 	
-	
-	
 	//Agenda
 	@FindBy(xpath="//*[@id=\'ui\']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div[1]/span[3]/button[4]/span")
 	WebElement agenda;
 	
+	//table
+	@FindBy(xpath="//*[@id=\'ui\']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/div/table")
+	WebElement table;
+	@FindBy(tagName = "tr")
+	List<WebElement> rowlist;
+	@FindBy(tagName = "td")
+	List<WebElement> columnsList1;
 	
 	// Constructor
 	public Calender_page(WebDriver driver) {
@@ -373,4 +378,15 @@ public class Calender_page extends Library {
 			agenda.click();
 		}
 	
+		public void checkdatainTable() {
+			List<WebElement>columnsList=null;
+		for (WebElement row : rowlist) {
+		columnsList=row.findElements(By.tagName("td"));  
+		 for (WebElement column : columnsList) {
+             System.out.print(column.getText() + ",");
+     }
+		}
+		
+
+}
 }

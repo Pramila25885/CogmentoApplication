@@ -268,6 +268,10 @@ public class Calender_Steps extends Library {
 	public void click_on_Agenda() {
 	    cal.clickOnAgenda();
 	}
+	@Then("check if new meeting is listed in Agenda table")
+	public void check_if_new_meeting_is_listed_in_Agenda_table() {
+	    cal.checkdatainTable();
+	}
 
 
 

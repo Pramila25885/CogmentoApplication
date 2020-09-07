@@ -484,4 +484,14 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "check if new meeting is listed in Agenda table",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.StepDefinition.calender.Calender_Steps.check_if_new_meeting_is_listed_in_Agenda_table()"
+});
+formatter.result({
+  "status": "passed"
+});
 });

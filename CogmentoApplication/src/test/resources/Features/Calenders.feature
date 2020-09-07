@@ -50,7 +50,7 @@ Then enter identifier
 And click on save
 Then Click on Calender again
 And click on Agenda
-
+Then check if new meeting is listed in Agenda table
 
 
 

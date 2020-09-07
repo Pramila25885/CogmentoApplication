@@ -1777,3 +1777,67 @@
 2020-09-06 21:57:35,951 [main] INFO com.baseClass.Library - Calender option selected
 2020-09-06 21:57:38,017 [main] INFO com.baseClass.Library - Clicked on category
 2020-09-06 21:57:38,296 [main] INFO com.baseClass.Library - Selected category option
+2020-09-06 22:51:34,316 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-06 22:51:38,580 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-06 22:51:42,894 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-06 22:51:42,895 [main] INFO com.baseClass.Library - Browser is launched successfully and Navigated to the URL
+2020-09-06 22:51:43,221 [main] INFO com.baseClass.Library - Entered UserName and Password
+2020-09-06 22:51:43,346 [main] INFO com.baseClass.Library - Login Successful
+2020-09-06 22:51:43,361 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 22:51:44,919 [main] INFO com.baseClass.Library - Clicked Calender Successfully
+2020-09-06 22:51:44,934 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 22:51:45,167 [main] INFO com.baseClass.Library - Clicked on New
+2020-09-06 22:51:45,226 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 22:51:45,481 [main] INFO com.baseClass.Library - Title updated
+2020-09-06 22:51:45,570 [main] INFO com.baseClass.Library - Calender Clicked
+2020-09-06 22:51:47,805 [main] INFO com.baseClass.Library - Calender option selected
+2020-09-06 22:51:49,882 [main] INFO com.baseClass.Library - Clicked on category
+2020-09-06 22:51:50,164 [main] INFO com.baseClass.Library - Selected category option
+2020-09-06 23:02:03,452 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-06 23:02:08,185 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-06 23:02:12,982 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-06 23:02:12,983 [main] INFO com.baseClass.Library - Browser is launched successfully and Navigated to the URL
+2020-09-06 23:02:13,401 [main] INFO com.baseClass.Library - Entered UserName and Password
+2020-09-06 23:02:13,488 [main] INFO com.baseClass.Library - Login Successful
+2020-09-06 23:02:13,503 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:02:15,417 [main] INFO com.baseClass.Library - Clicked Calender Successfully
+2020-09-06 23:02:15,480 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:02:15,708 [main] INFO com.baseClass.Library - Clicked on New
+2020-09-06 23:02:15,830 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:02:16,011 [main] INFO com.baseClass.Library - Title updated
+2020-09-06 23:02:16,138 [main] INFO com.baseClass.Library - Calender Clicked
+2020-09-06 23:02:18,364 [main] INFO com.baseClass.Library - Calender option selected
+2020-09-06 23:02:20,422 [main] INFO com.baseClass.Library - Clicked on category
+2020-09-06 23:02:20,758 [main] INFO com.baseClass.Library - Selected category option
+2020-09-06 23:18:20,106 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-06 23:18:25,009 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-06 23:18:28,975 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-06 23:18:28,976 [main] INFO com.baseClass.Library - Browser is launched successfully and Navigated to the URL
+2020-09-06 23:18:29,307 [main] INFO com.baseClass.Library - Entered UserName and Password
+2020-09-06 23:18:29,369 [main] INFO com.baseClass.Library - Login Successful
+2020-09-06 23:18:29,378 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:18:31,082 [main] INFO com.baseClass.Library - Clicked Calender Successfully
+2020-09-06 23:18:31,109 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:18:31,315 [main] INFO com.baseClass.Library - Clicked on New
+2020-09-06 23:18:31,402 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:18:31,641 [main] INFO com.baseClass.Library - Title updated
+2020-09-06 23:18:31,726 [main] INFO com.baseClass.Library - Calender Clicked
+2020-09-06 23:18:34,005 [main] INFO com.baseClass.Library - Calender option selected
+2020-09-06 23:18:36,102 [main] INFO com.baseClass.Library - Clicked on category
+2020-09-06 23:18:36,472 [main] INFO com.baseClass.Library - Selected category option
+2020-09-06 23:20:20,229 [main] INFO com.baseClass.Library - Starting with Browser Set Up
+2020-09-06 23:20:24,359 [main] INFO com.baseClass.Library - Identified the browser as chrome. Launching the browser
+2020-09-06 23:20:28,530 [main] INFO com.baseClass.Library - Launched the Cogmento Application
+2020-09-06 23:20:28,530 [main] INFO com.baseClass.Library - Browser is launched successfully and Navigated to the URL
+2020-09-06 23:20:28,927 [main] INFO com.baseClass.Library - Entered UserName and Password
+2020-09-06 23:20:28,998 [main] INFO com.baseClass.Library - Login Successful
+2020-09-06 23:20:29,012 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:20:30,635 [main] INFO com.baseClass.Library - Clicked Calender Successfully
+2020-09-06 23:20:30,645 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:20:30,886 [main] INFO com.baseClass.Library - Clicked on New
+2020-09-06 23:20:30,946 [main] INFO com.baseClass.Library - URL matches with the ExpectedURL
+2020-09-06 23:20:31,167 [main] INFO com.baseClass.Library - Title updated
+2020-09-06 23:20:31,304 [main] INFO com.baseClass.Library - Calender Clicked
+2020-09-06 23:20:33,557 [main] INFO com.baseClass.Library - Calender option selected
+2020-09-06 23:20:35,650 [main] INFO com.baseClass.Library - Clicked on category
+2020-09-06 23:20:36,227 [main] INFO com.baseClass.Library - Selected category option
