@@ -3,70 +3,597 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-01T18:17:25.286Z",
+        "start_timestamp": "2020-09-07T01:57:23.203Z",
         "line": 3,
-        "name": "To check the login functionality of Cogmento",
+        "name": "To check the Calender functionality of Cogmento",
         "description": "",
-        "id": "test-the-cogmento-application;to-check-the-login-functionality-of-cogmento",
+        "id": "test-calender-module-in-cogmento-application;to-check-the-calender-functionality-of-cogmento",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8800392400,
+              "duration": 7913652700,
               "status": "passed"
             },
             "line": 4,
-            "name": "To Launch the browser and Navigate to the URL",
+            "name": "To launch the Browser and Navigate to the URL",
             "match": {
-              "location": "com.loginSteps_StepDefinition.LoginSteps.to_Launch_the_browser_and_Navigate_to_the_URL()"
+              "location": "com.StepDefinition.calender.Calender_Steps.to_launch_the_Browser_and_Navigate_to_the_URL()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 357044400,
+              "duration": 342085200,
               "status": "passed"
             },
             "line": 5,
-            "name": "Enter Email and Password",
+            "name": "Enter the Emailid and the Password",
             "match": {
-              "location": "com.loginSteps_StepDefinition.LoginSteps.enter_Email_and_Password()"
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_the_Emailid_and_the_Password()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 54852500,
+              "duration": 65824400,
               "status": "passed"
             },
             "line": 6,
-            "name": "Click Login Button",
+            "name": "click Login button",
             "match": {
-              "location": "com.loginSteps_StepDefinition.LoginSteps.click_Login_Button()"
+              "location": "com.StepDefinition.calender.Calender_Steps.click_Login_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 353957500,
+              "duration": 14957600,
               "status": "passed"
             },
             "line": 7,
-            "name": "Get the page Title and ScreenShot",
+            "name": "User is on home page",
             "match": {
-              "location": "com.loginSteps_StepDefinition.LoginSteps.get_the_page_Title_and_ScreenShot()"
+              "location": "com.StepDefinition.calender.Calender_Steps.user_is_on_home_page()"
             },
             "keyword": "Then "
           }
         ]
+      },
+      {
+        "start_timestamp": "2020-09-07T01:57:31.638Z",
+        "line": 9,
+        "name": "To Check Save functionality in Calender Module",
+        "description": "",
+        "id": "test-calender-module-in-cogmento-application;to-check-save-functionality-in-calender-module",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1373396300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "On the homepage click the Calender button",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.on_the_homepage_click_the_Calender_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53852700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the URL of the page",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.verify_the_URL_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305183500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the New Button",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_the_New_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75801300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify the URL of the new calender page",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.verify_the_URL_of_the_new_calender_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179516200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter the Titletext",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_the_Titletext()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83774800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click calender option",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_calender_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2235824700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select any calender option",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_any_calender_option()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2067627600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on category",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_category()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 277860900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "select an option",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_an_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61837900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on tag field",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_tag_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48338500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter tag",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_tag()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 623747400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "select tagoption",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_tagoption()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 217417800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "add Description",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.add_Description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 116691300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "add location",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.add_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46870600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "check allDay button is displayed",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.check_allDay_button_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16955000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "check allDay Button is enabled",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.check_allDay_Button_is_enabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74799900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on AllDayButton",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_AllDayButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66820400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on task field",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_task_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62830600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "enter task",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_task()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 496431000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "select taskoption",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_taskoption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61757200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click on Deals field",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_Deals_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40501800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "enter Deals",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_Deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 476256400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "select Dealsoption",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_Dealsoption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63633100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "click on Case field",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_Case_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42884900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter Case",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_Case()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 402803500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "select Caseoption",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_Caseoption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69813900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click on AlertBefore",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_AlertBefore()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132645300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "select alertBefore option",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_alertBefore_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132644600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on AlertVia field",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_AlertVia_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101727800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "select alertvia option",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_alertvia_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95745500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "enter reminder time",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_reminder_time()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58841700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "click on assignedTo",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_assignedTo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45877200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "click Enter",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_Enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75796600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "click on participants field",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_participants_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50864500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "enter participants",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_participants()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 487695000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "select participants option",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_participants_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61834400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "click on companies field",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_companies_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54851900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "enter companies",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_companies()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 444807100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "select companies option",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.select_companies_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149600100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "enter identifier",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.enter_identifier()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84773300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "click on save",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1996430000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Click on Calender again",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_Calender_again()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105716600,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "click on Agenda",
+            "match": {
+              "location": "com.StepDefinition.calender.Calender_Steps.click_on_Agenda()"
+            },
+            "keyword": "And "
+          }
+        ]
       }
     ],
-    "name": "Test the Cogmento Application",
+    "name": "Test Calender Module in Cogmento Application",
     "description": "",
-    "id": "test-the-cogmento-application",
+    "id": "test-calender-module-in-cogmento-application",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/Login.feature",
+    "uri": "file:src/test/resources/Features/Calenders.feature",
     "tags": []
   }
 ]

@@ -4,3 +4,39 @@ url=https://ui.cogmento.com/
 
 email=pramilasurendra@gmail.com
 password=Pramila@123
+expectedURLHome=https://ui.cogmento.com/
+expectedURL=https://ui.cogmento.com/calendar
+
+expectedURLNew=https://ui.cogmento.com/calendar/new
+
+title=One to One Meeting
+
+optionText=Anubala
+
+categoryOptionText=Opportunity
+tagtext=t
+tagoption=tags1
+Description=Attend Meeting
+Location=Office
+tasktext=ta
+taskoption=task3
+dealtext=d
+dealoption=deal2
+casetext=ca
+caseoption=Case2
+alertbeforeOption=1 Hour
+alertText=SMS
+remindertext=5
+participanttext=p
+participantoption=Participant2
+companiestext=r
+companiesoption=Randstad
+identifierText=Attend
+
+
+
+
+
+
+
+
